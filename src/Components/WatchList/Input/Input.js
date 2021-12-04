@@ -13,7 +13,7 @@ const Input = () => {
     text = text.toUpperCase();
     if (text !== "") {
       setInputText(text);
-      setSearchedData(data.filter((item) => item[0].includes(text)));
+      setSearchedData(data.filter((item) => item[0].startsWith(text)));
     } else {
       setInputText("");
       setSearchedData([]);
