@@ -77,7 +77,7 @@ const StockItem = (props) => {
     >
       <div className={classes.alignLeft}>
         <ColoredData difference={difference} data={stockName} />
-        <p>{NSEorBSE}</p>
+        <p className={classes.NSEorBSE} >{NSEorBSE}</p>
       </div>
       <div className={classes.alignRight}>
         <ColoredData difference={difference} data={stockPrice} />

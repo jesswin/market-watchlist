@@ -36,3 +36,10 @@
 .btn:hover {
   transform: scale(1.1);
 }
+
+.NSEorBSE {
+  padding: 0.2rem;
+  width: 1.7rem;
+  font-size: 0.9rem;
+  background-color: rgb(241, 238, 238);
+}

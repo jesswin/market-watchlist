@@ -8,6 +8,16 @@ const WatchList = () => {
   const watchList = watchListCtx.watchList;
   return (
     <>
+      <p
+        style={{
+          maxWidth: "55rem",
+          fontSize: "1.2rem",
+          margin: "auto",
+          padding: "1.2rem",
+        }}
+      >
+        Search in the box below and start adding Stocks to your watch-list
+      </p>
       {/* Input Element with Seach and Dropdown */}
       <Input />
       {/* WatchList Text */}
@@ -15,12 +25,13 @@ const WatchList = () => {
         <p
           style={{
             maxWidth: "55rem",
+            fontSize: "1.2rem",
             margin: "auto",
             padding: "1.2rem",
             textAlign: "left",
           }}
         >
-          Watch-list of Jesswin
+          Watch List
         </p>
       )}
 
