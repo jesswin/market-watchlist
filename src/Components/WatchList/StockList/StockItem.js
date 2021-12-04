@@ -77,7 +77,7 @@ const StockItem = (props) => {
     >
       <div className={classes.alignLeft}>
         <ColoredData difference={difference} data={stockName} />
-        <p className={classes.NSEorBSE} >{NSEorBSE}</p>
+        <p className={classes.NSEorBSE}>{NSEorBSE}</p>
       </div>
       <div className={classes.alignRight}>
         <ColoredData difference={difference} data={stockPrice} />
@@ -91,7 +91,13 @@ const StockItem = (props) => {
           onClick={isInWatchList ? removeFromWatchList : addToWatchList}
           className={classes.btn}
         >
-          {isInWatchList ? <MdDelete color="red" /> : "+"}
+          {isInWatchList ? (
+            <div style={{ display: "flex" }}>
+              <MdDelete color="red" />
+            </div>
+          ) : (
+            "+"
+          )}
         </button>
       )}
     </div>
