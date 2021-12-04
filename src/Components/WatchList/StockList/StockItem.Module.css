@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 90%;
+  height: 3rem;
+  max-width: 55rem;
+  position: relative;
+  border-bottom: 1px solid gray;
+  z-index: 5;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  font-size: 1.3rem;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 5;
+  right: 0;
+  z-index: 10;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

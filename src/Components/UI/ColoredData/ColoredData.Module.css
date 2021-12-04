@@ -1,0 +1,11 @@
+.stockPriceGreen {
+  color: rgb(10, 192, 10);
+}
+
+.stockPriceRed {
+  color: red;
+}
+
+.stockPriceRegular {
+  color: black;
+}
